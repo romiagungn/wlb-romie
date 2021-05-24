@@ -1,0 +1,77 @@
+export const styles = () => ({
+  root: {
+    width: "100vw",
+    borderRadius: 0,
+    position: "relative",
+  },
+  headerWrapper: {
+    position: "relative",
+    width: "100%",
+    minHeight: "300px",
+    background:
+      "url(https://lh5.googleusercontent.com/proxy/O7cvvLEYHka8QWTIlovSqZZM03_XDefL-uP70YtmXp5mnACCbWJgRqhXtUn9uePcJ6j4jXcoi8ftKe2JAN6TLbX7o3JScXh6JSyKgPjIDcpvAjtjQyT-AkWUNvn9_FUofiagMzU90-k5A6baKp6RIgSyS_2chsysDpTouGs1ocy86vRkDphcGOMqAA=s0-d) no-repeat",
+    backgroundColor: "#111",
+    backgroundSize: "cover",
+    backgroundPosition: "center center",
+    marginBottom: "24px",
+    "&:before": {
+      content: "''",
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundColor: "rgba(32, 32, 32, 0.7)",
+    },
+  },
+  headerInner: {
+    position: "relative",
+    padding: "80px 10px",
+    maxWidth: 1215,
+    height: "240px",
+    display: "block",
+    zIndex: 1,
+    textAlign: "center",
+    margin: "0 auto",
+  },
+  title: {
+    textDecoration: "none",
+    color: "#fff",
+    padding: "10px",
+    border: "2px solid #fff",
+    fontFamily: "Merriweather, Arial, Helvetica Neue, Helvetica, sans-serif",
+    fontWeight: 800,
+    fontSize: "24px",
+    textTransform: "uppercase",
+  },
+  subtitle: {
+    marginTop: "32px",
+    color: "#fff",
+    fontSize: "0.9rem",
+  },
+  container: {
+    width: 1215,
+    maxWidth: "100%",
+    margin: "0 auto",
+    padding: "15px",
+  },
+  footer: {
+    position: "relative",
+    width: "100%",
+    marginTop: "14px",
+    "&:before": {
+      content: "''",
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+    },
+    fontFamily: "Merriweather, Arial, Helvetica Neue, Helvetica, sans-serif",
+    textAlign: "center",
+    color: "#aaa",
+    fontSize: "0.675rem",
+    marginBottom: "14px",
+    minHeight: "40px"
+  }
+});
